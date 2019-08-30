@@ -8,7 +8,7 @@ public class PlayerManager : MonoBehaviour
     public  bool allowDebug = true   ;
 
 
-    
+     
     public void TakeDamage(float amount){
         health -= amount;
         

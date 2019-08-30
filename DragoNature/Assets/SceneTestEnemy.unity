@@ -123,6 +123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Firing Rifle
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 71e1ec04fccd6dd49ad2e4596991fc0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 71e1ec04fccd6dd49ad2e4596991fc0b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -591,7 +595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100050, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -670,7 +674,7 @@ PrefabInstance:
     - target: {fileID: 4288040183948070149, guid: 2856189047cb42849ad07bff0f53af83,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4288040183948070145, guid: 2856189047cb42849ad07bff0f53af83,
         type: 3}
