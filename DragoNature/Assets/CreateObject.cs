@@ -15,7 +15,7 @@ public class CreateObject : MonoBehaviour
         }
         
     }
-    void OnTriggerSpace()
+    public void OnTriggerSpace()
     {
             Instantiate(Enemy, SpawnPoint.position,SpawnPoint.rotation);
     }
