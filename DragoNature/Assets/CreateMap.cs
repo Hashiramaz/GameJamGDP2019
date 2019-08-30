@@ -17,12 +17,17 @@ public class CreateMap : MonoBehaviour
     void Update()
     {
         
-        //if(){
-        //    GenerateMap();
-        //}
+        
     }
     
     void GenerateMap(){
         Instantiate(Plane, SpawnMapPoint.position,SpawnMapPoint.rotation);
+    }
+    private void OnTriggerEnter(Collider other) {
+        if (other.gameObject.name == "TriggerForMap"){
+            GenerateMap();
+        }
+
+        
     }
 }
