@@ -5,10 +5,10 @@ using UnityEngine;
 public class MoveEnemy : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float moveSpeed;
+    public float moveSpeed = -2f;
     void Start()
     {
-        moveSpeed = -2f;
+        
     }
 
     // Update is called once per frame

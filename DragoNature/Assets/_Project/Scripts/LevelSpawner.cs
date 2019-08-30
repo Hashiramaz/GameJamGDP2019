@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class LevelSpawner : MonoBehaviour
 {
-   public CreateObject createObject;
+    public GameObject levelToSpawn;
+    public GameObject clouds;
+    public Transform spawnpoint;
     public void SpawnLevel(){
-            createObject.OnTriggerSpace();
-
+          
+            Instantiate(levelToSpawn,spawnpoint.position,spawnpoint.rotation);
     }
     private void OnTriggerEnter(Collider other) {
         Debug.Log("Entrou no Trigger" + other);
         if(other.CompareTag("EndOfLevel")){
-        SpawnLevel();
+             SpawnLevel();
         }
     }
 
