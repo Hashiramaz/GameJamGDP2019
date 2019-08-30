@@ -88,15 +88,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 402300, guid: 079954accd64b32419ec069129c81273, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4875176
+      value: 0.10271678
       objectReference: {fileID: 0}
     - target: {fileID: 402300, guid: 079954accd64b32419ec069129c81273, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4875176
+      value: 0.10271678
       objectReference: {fileID: 0}
     - target: {fileID: 402300, guid: 079954accd64b32419ec069129c81273, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.4875176
+      value: 0.10271678
       objectReference: {fileID: 0}
     - target: {fileID: 19821056, guid: 079954accd64b32419ec069129c81273, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
@@ -141,6 +141,10 @@ PrefabInstance:
     - target: {fileID: 452148, guid: 079954accd64b32419ec069129c81273, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100702, guid: 079954accd64b32419ec069129c81273, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 19810594, guid: 079954accd64b32419ec069129c81273, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
