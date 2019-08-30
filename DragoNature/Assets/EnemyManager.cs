@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
  public float health;
-
+public bool isDead;
 
 
 
@@ -24,6 +24,10 @@ public class EnemyManager : MonoBehaviour
     }
 
     public void Die(){
+        if(isDead)
+        return;
 
+        isDead = true;
+            transform.SendMessage("Die");
     }
 }

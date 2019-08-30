@@ -43,6 +43,9 @@ GameObject:
   - component: {fileID: 3477457791816584386}
   - component: {fileID: 3477457791816584387}
   - component: {fileID: 3477457791816584388}
+  - component: {fileID: 5577077885295680525}
+  - component: {fileID: 7781395866030266094}
+  - component: {fileID: 4119053454269416553}
   m_Layer: 0
   m_Name: EnemyBase
   m_TagString: Untagged
@@ -107,6 +110,45 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5577077885295680525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3477457791816584389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b3e4a0704260c49ad6525204fce308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+--- !u!114 &7781395866030266094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3477457791816584389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be09a509047e38448afe760c24ff0cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objToSpawnOnDeath:
+  - {fileID: 3688713662686518312, guid: ad7873db9bf579c44a9a34c62ae85245, type: 3}
+--- !u!114 &4119053454269416553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3477457791816584389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f886abcb9d3093d4682dc59078593a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3477457791047289522
 PrefabInstance:
   m_ObjectHideFlags: 0

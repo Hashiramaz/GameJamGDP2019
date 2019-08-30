@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EndOfLevel
   - FxTemporaire
+  - Bullet
   layers:
   - Default
   - TransparentFX
