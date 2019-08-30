@@ -7,6 +7,7 @@ TagManager:
   - EndOfLevel
   - FxTemporaire
   - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - PostProcessing
   - InvisibleWall
   - Player
-  - 
-  - 
+  - Enemy
+  - PlayerTrigger
   - 
   - 
   - 
