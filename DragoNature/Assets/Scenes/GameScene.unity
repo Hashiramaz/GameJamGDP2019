@@ -2448,7 +2448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &420849426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6179,7 +6179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6c1f9997bb7f1448b0dd7544f49ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToSpawn: {fileID: 7541945627697599667, guid: bdec51c5a9d263a4192475e200fc87a0,
+  levelToSpawn: {fileID: 3105110586938347595, guid: efaeec59bcdff284da546c0f83ccbb7a,
     type: 3}
   clouds: {fileID: 0}
   spawnpoint: {fileID: 442842846}
