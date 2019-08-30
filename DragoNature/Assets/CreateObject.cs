@@ -6,7 +6,7 @@ public class CreateObject : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public Transform spawnpoint;
+    public Transform SpawnPoint;
     public GameObject Enemy;
 
     private void Update() {
@@ -17,6 +17,6 @@ public class CreateObject : MonoBehaviour
     }
     void OnTriggerSpace()
     {
-            Instantiate(Enemy, spawnpoint.position,spawnpoint.rotation);
+            Instantiate(Enemy, SpawnPoint.position,SpawnPoint.rotation);
     }
 }
