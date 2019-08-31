@@ -134,9 +134,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 4557705000005033687, guid: f19f8b06bb7b1524c8fd04e0ce51fab3,
     type: 3}
-  bulletPoint: {fileID: 1946402357893839354}
+  bulletPoints:
+  - {fileID: 1946402357893839354}
   firingRate: 0.05
   nextTimeToFire: 0
+  buttonFirePressed: 0
 --- !u!1 &513023190967050194
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,9 +245,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 4557705000005033687, guid: f19f8b06bb7b1524c8fd04e0ce51fab3,
     type: 3}
-  bulletPoint: {fileID: 7841238882670328440}
+  bulletPoints:
+  - {fileID: 7841238882670328440}
   firingRate: 0.05
   nextTimeToFire: 0
+  buttonFirePressed: 0
 --- !u!1 &3260614020534929530
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,9 +412,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 4557705000005033687, guid: f19f8b06bb7b1524c8fd04e0ce51fab3,
     type: 3}
-  bulletPoint: {fileID: 3260614022188204937}
+  bulletPoints:
+  - {fileID: 3260614022188204937}
   firingRate: 0.05
   nextTimeToFire: 0
+  buttonFirePressed: 0
 --- !u!1 &3260614022161340013
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,9 +607,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 4557705000005033687, guid: f19f8b06bb7b1524c8fd04e0ce51fab3,
     type: 3}
-  bulletPoint: {fileID: 537223563220343583}
+  bulletPoints:
+  - {fileID: 537223563220343583}
   firingRate: 0.05
   nextTimeToFire: 0
+  buttonFirePressed: 0
 --- !u!1001 &3260614021661232898
 PrefabInstance:
   m_ObjectHideFlags: 0
