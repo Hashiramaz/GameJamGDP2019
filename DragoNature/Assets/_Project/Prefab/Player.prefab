@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  allowDebug: 1
+  allowDebug: 0
   weaponHolder: {fileID: 1244795754313572098}
   flashOnHit: {fileID: 6521346823051450157}
 --- !u!114 &6521346823051450157
@@ -456,11 +456,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3260614020534929531}
     m_Modifications:
-    - target: {fileID: 7388968337889270106, guid: 32f0aa37680f5d747a24974075e57827,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayerWeaponHolder
-      objectReference: {fileID: 0}
     - target: {fileID: 4786122845744640318, guid: 32f0aa37680f5d747a24974075e57827,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -515,6 +510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388968337889270106, guid: 32f0aa37680f5d747a24974075e57827,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerWeaponHolder
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32f0aa37680f5d747a24974075e57827, type: 3}
