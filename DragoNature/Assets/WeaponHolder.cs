@@ -20,6 +20,11 @@ public class WeaponHolder : MonoBehaviour
             SelectWeapon(2);
         if(Input.GetKeyDown(KeyCode.Alpha4))
             SelectWeapon(3);
+
+         if(Input.GetKeyDown(KeyCode.Alpha5))
+            SelectWeapon(4);
+                if(Input.GetKeyDown(KeyCode.Alpha6))
+            SelectWeapon(5);
         
     }
     private void Start() {

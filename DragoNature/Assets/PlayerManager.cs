@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour
     public float health = 1f;
     public  bool allowDebug = true   ;
 
-
+    public WeaponHolder weaponHolder;
      
     public void TakeDamage(float amount){
         health -= amount;
