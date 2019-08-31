@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 561017249}
   m_Layer: 10
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -679,6 +679,7 @@ MonoBehaviour:
   - {fileID: 2306705559235251337}
   - {fileID: 8570560743935321126}
   activeweapon: {fileID: 3260614021514294531}
+  activeWeaponIndex: 0
 --- !u!1 &3882822344341453532
 GameObject:
   m_ObjectHideFlags: 0
