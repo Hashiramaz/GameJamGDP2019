@@ -6,7 +6,7 @@ public class EnemyManager : MonoBehaviour
 {
  public float health;
 public bool isDead;
-
+public EnemyWeaponRoutine enemyWeapon;
 
 
 

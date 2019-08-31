@@ -14,9 +14,12 @@ public bool canShoot;
 public float firingRate = 0.5f;
 
 private void Start() {
-    StartShoot();
+   // StartShoot();
 }
 public void StartShoot(){
+    if(canShoot)
+        return;
+        
 canShoot = true;
 StartCoroutine(WeaponRoutine());
 }
