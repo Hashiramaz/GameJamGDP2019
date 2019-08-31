@@ -49,7 +49,7 @@ MonoBehaviour:
     type: 3}
   muzzleFlash: {fileID: 504095992557344476}
   canShoot: 0
-  firingRate: 2
+  firingRate: 2.5
 --- !u!1 &1130666475
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,17 +178,17 @@ PrefabInstance:
     - target: {fileID: 3477457791816584385, guid: 7ec2bdb6adf889543b0d2625cb89c696,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.014512
       objectReference: {fileID: 0}
     - target: {fileID: 3477457791816584385, guid: 7ec2bdb6adf889543b0d2625cb89c696,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.58616
       objectReference: {fileID: 0}
     - target: {fileID: 3477457791816584385, guid: 7ec2bdb6adf889543b0d2625cb89c696,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.048172
       objectReference: {fileID: 0}
     - target: {fileID: 3477457791816584385, guid: 7ec2bdb6adf889543b0d2625cb89c696,
         type: 3}
@@ -229,6 +229,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477457791816584385, guid: 7ec2bdb6adf889543b0d2625cb89c696,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477457791816584385, guid: 7ec2bdb6adf889543b0d2625cb89c696,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477457791816584385, guid: 7ec2bdb6adf889543b0d2625cb89c696,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5577077885295680525, guid: 7ec2bdb6adf889543b0d2625cb89c696,
         type: 3}
