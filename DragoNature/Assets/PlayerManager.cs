@@ -11,6 +11,7 @@ public class PlayerManager : MonoBehaviour
      
     public void TakeDamage(float amount){
         health -= amount;
+        weaponHolder.LevelDown();
         
         if(health <= 0)
             PlayerDies();
