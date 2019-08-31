@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     }
     public void StartGame(){
         isPlaying = true;
+        AudioManager.instance.Play("GameMusic");
     }
 
     public void StopGame(){

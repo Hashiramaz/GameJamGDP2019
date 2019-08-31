@@ -56,3 +56,9 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: GameMusic
+    clip: {fileID: 8300000, guid: b9b9f2356f1f3bc479e282f832ad5a13, type: 3}
+    volume: 0.21
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
