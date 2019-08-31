@@ -92,6 +92,11 @@ PrefabInstance:
       propertyPath: health
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 6934794572750542638, guid: 2856189047cb42849ad07bff0f53af83,
+        type: 3}
+      propertyPath: objToSpawnOnDeath.Array.data[0]
+      value: 
+      objectReference: {fileID: 100002, guid: 7c672865dbc527741b6a2de1c6b9f48e, type: 3}
     - target: {fileID: 147187035, guid: 2856189047cb42849ad07bff0f53af83, type: 3}
       propertyPath: bulletprefab
       value: 
