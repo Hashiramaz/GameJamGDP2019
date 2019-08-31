@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 6326561813339644189}
   m_Layer: 13
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: BulletEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5010347803699089647}
   - component: {fileID: 5010347803699089646}
   - component: {fileID: 5010347803699089641}
+  - component: {fileID: 3388798798983216515}
   m_Layer: 0
   m_Name: TriggerStartEnemyFire
   m_TagString: Untagged
@@ -102,5 +103,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b4679566a53d174bbafd3b2b5ae4570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3388798798983216515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5010347803699089640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5abe0e36667c494488b3247697c443f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

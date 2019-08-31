@@ -55,7 +55,11 @@ public class WeaponHolder : MonoBehaviour
         SelectWeapon(activeWeaponIndex + 1);
 
     }
+    public void LevelDown(){
+        if(activeWeaponIndex > 0)
+        SelectWeapon(activeWeaponIndex - 1);
 
+    }
 
 
 }

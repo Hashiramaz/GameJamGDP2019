@@ -8,10 +8,15 @@ public class PlayerManager : MonoBehaviour
     public  bool allowDebug = true   ;
 
     public WeaponHolder weaponHolder;
+    public EnemyFlashOnHit flashOnHit;
      
     public void TakeDamage(float amount){
         health -= amount;
         
+        if(flashOnHit != null)
+            flashOnHit.StartFlash();
+
+            
         if(health <= 0)
             PlayerDies();
     }
