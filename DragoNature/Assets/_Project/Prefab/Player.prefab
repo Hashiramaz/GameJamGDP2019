@@ -528,7 +528,7 @@ MonoBehaviour:
     type: 3}
   bulletPoints:
   - {fileID: 3260614022188204937}
-  firingRate: 0.05
+  firingRate: 0.025
   nextTimeToFire: 0
   buttonFirePressed: 0
 --- !u!1 &3260614022161340013
@@ -925,15 +925,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4588969432930894, guid: 489939eafa6439b41b2be82f493c9598, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.000000023842
       objectReference: {fileID: 0}
     - target: {fileID: 4588969432930894, guid: 489939eafa6439b41b2be82f493c9598, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.20329
       objectReference: {fileID: 0}
     - target: {fileID: 4588969432930894, guid: 489939eafa6439b41b2be82f493c9598, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.77
+      value: -4.5938
       objectReference: {fileID: 0}
     - target: {fileID: 4588969432930894, guid: 489939eafa6439b41b2be82f493c9598, type: 3}
       propertyPath: m_LocalRotation.x
@@ -969,15 +969,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4588969432930894, guid: 489939eafa6439b41b2be82f493c9598, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.67764
+      value: 0.54211205
       objectReference: {fileID: 0}
     - target: {fileID: 4588969432930894, guid: 489939eafa6439b41b2be82f493c9598, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.67764
+      value: 0.54211205
       objectReference: {fileID: 0}
     - target: {fileID: 4588969432930894, guid: 489939eafa6439b41b2be82f493c9598, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.67764
+      value: 0.54211205
       objectReference: {fileID: 0}
     - target: {fileID: 1368063653538312, guid: 489939eafa6439b41b2be82f493c9598, type: 3}
       propertyPath: m_Layer
