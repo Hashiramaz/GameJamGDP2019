@@ -15,7 +15,7 @@ StartCoroutine(AutoDestroyIn(timeToDestroy));
 
    IEnumerator AutoDestroyIn(float _time){
        yield return new WaitForSeconds(_time);
-       transform.SendMessage("Die");
+       transform.SendMessage("Die",SendMessageOptions.DontRequireReceiver);
        Destroy(gameObject);
    }
 }
