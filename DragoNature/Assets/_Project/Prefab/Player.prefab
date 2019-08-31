@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf6c2c283efc3db448c6a821cb4bb65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 10
+  MoveSpeed: 22.5
   animator: {fileID: 561017254}
   movingLeft: 0
   movingRight: 0
@@ -251,7 +251,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4557705000005033687, guid: f19f8b06bb7b1524c8fd04e0ce51fab3,
     type: 3}
   bulletPoint: {fileID: 3260614022188204937}
-  firingRate: 0.1
+  firingRate: 0.05
   nextTimeToFire: 0
 --- !u!1 &3260614022161340013
 GameObject:

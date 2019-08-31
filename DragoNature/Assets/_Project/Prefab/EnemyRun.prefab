@@ -49,7 +49,7 @@ MonoBehaviour:
     type: 3}
   muzzleFlash: {fileID: 504095992557344476}
   canShoot: 0
-  firingRate: 0.5
+  firingRate: 1
 --- !u!1 &1130666475
 GameObject:
   m_ObjectHideFlags: 0
@@ -73,12 +73,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130666475}
-  m_LocalRotation: {x: -0.60209817, y: 0.5409359, z: 0.15687679, w: 0.5659116}
-  m_LocalPosition: {x: -0.0055, y: 0.033, z: 0.0215}
-  m_LocalScale: {x: 0.033333335, y: 0.03333333, z: 0.03333334}
+  m_LocalRotation: {x: 0.000000067055204, y: -0.0000003650783, z: 0.000000060070285,
+    w: 1}
+  m_LocalPosition: {x: 0.0010515405, y: 0.04418708, z: 0.025083927}
+  m_LocalScale: {x: 0.03333343, y: 0.033333343, z: 0.033333447}
   m_Children: []
-  m_Father: {fileID: 4288040184785195500}
-  m_RootOrder: 1
+  m_Father: {fileID: 4288040184785195456}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180.00002, z: 0}
 --- !u!1001 &1309903106
 PrefabInstance:
@@ -242,9 +243,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 846752304063775168}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &4288040184785195500 stripped
+--- !u!4 &4288040184785195456 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3477457791047684140, guid: 7ec2bdb6adf889543b0d2625cb89c696,
+  m_CorrespondingSourceObject: {fileID: 3477457791047684096, guid: 7ec2bdb6adf889543b0d2625cb89c696,
     type: 3}
   m_PrefabInstance: {fileID: 846752304063775168}
   m_PrefabAsset: {fileID: 0}
