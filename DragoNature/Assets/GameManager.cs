@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void ResetGame(){
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Game");
 
     }
 }
