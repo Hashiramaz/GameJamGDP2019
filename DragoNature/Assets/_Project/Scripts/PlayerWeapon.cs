@@ -12,6 +12,8 @@ public class PlayerWeapon : MonoBehaviour
     public float nextTimeToFire;  
 
     public bool buttonFirePressed;
+
+    public bool buttonspaceenabled;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +30,9 @@ public class PlayerWeapon : MonoBehaviour
 
 
     public void UpdateShooting(){
-        if(Input.GetKeyDown(KeyCode.Space)){
+        buttonspaceenabled = Input.GetKey(KeyCode.Space);
+
+        if(buttonspaceenabled){
 
                 TryShoot();
 
