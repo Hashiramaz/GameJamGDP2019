@@ -10,6 +10,8 @@ public class PlayerWeapon : MonoBehaviour
 
     public float firingRate = 0.5f;
     public float nextTimeToFire;  
+
+    public bool buttonShootingIsPressed;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,9 +30,17 @@ public class PlayerWeapon : MonoBehaviour
     public void UpdateShooting(){
         if(Input.GetKeyDown(KeyCode.Space)){
 
-            if(Time.time > nextTimeToFire){
+            
                 TryShoot();
-            }
+            
+
+        }
+
+        buttonShootingIsPressed = (Input.GetAxis("FireTrigger") > 0.5);
+
+        if(buttonShootingIsPressed){
+
+                TryShoot();
 
         }
 
@@ -39,7 +49,9 @@ public class PlayerWeapon : MonoBehaviour
 
     public void TryShoot(){
         
-        //verify if Player Have Bullets
+        //verify if Player can Fire
+        if(Time.time < nextTimeToFire)
+            return;
 
 
         //Everything is fine, shoooot!!!!
