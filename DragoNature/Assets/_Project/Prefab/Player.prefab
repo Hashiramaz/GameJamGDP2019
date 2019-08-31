@@ -162,8 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350c85261b5152a4c81ccec738feaacf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76,
-    type: 3}
+  bulletPrefabs:
+  - {fileID: 1628500102122075596, guid: 2d2b0f860bf3fd04aa05f8e16d360f30, type: 3}
   bulletPoints:
   - {fileID: 1946402357893839354}
   firingRate: 0.05
@@ -275,8 +275,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350c85261b5152a4c81ccec738feaacf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76,
-    type: 3}
+  bulletPrefabs:
+  - {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76, type: 3}
+  - {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76, type: 3}
   bulletPoints:
   - {fileID: 7841238882670328440}
   - {fileID: 1083863618}
@@ -328,8 +329,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350c85261b5152a4c81ccec738feaacf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76,
-    type: 3}
+  bulletPrefabs:
+  - {fileID: 1628500102122075596, guid: 2d2b0f860bf3fd04aa05f8e16d360f30, type: 3}
   bulletPoints:
   - {fileID: 4463835643874813010}
   firingRate: 0.05
@@ -543,8 +544,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350c85261b5152a4c81ccec738feaacf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76,
-    type: 3}
+  bulletPrefabs:
+  - {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76, type: 3}
   bulletPoints:
   - {fileID: 3260614022188204937}
   firingRate: 0.1
@@ -777,12 +778,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350c85261b5152a4c81ccec738feaacf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76,
-    type: 3}
+  bulletPrefabs:
+  - {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76, type: 3}
+  - {fileID: 1628500102122075596, guid: 2d2b0f860bf3fd04aa05f8e16d360f30, type: 3}
+  - {fileID: 1628500102122075596, guid: 2d2b0f860bf3fd04aa05f8e16d360f30, type: 3}
+  - {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76, type: 3}
   bulletPoints:
+  - {fileID: 8271607816833450637}
   - {fileID: 7905387206605562338}
   - {fileID: 915260719968973763}
-  - {fileID: 8271607816833450637}
   - {fileID: 557699691220780346}
   firingRate: 0.05
   nextTimeToFire: 0
@@ -922,8 +926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350c85261b5152a4c81ccec738feaacf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1203538593343630242, guid: c6c62500717a5bf44946cb07b671cc76,
-    type: 3}
+  bulletPrefabs:
+  - {fileID: 1628500102122075596, guid: 2d2b0f860bf3fd04aa05f8e16d360f30, type: 3}
   bulletPoints:
   - {fileID: 537223563220343583}
   firingRate: 0.05

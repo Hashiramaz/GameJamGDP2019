@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
 {
-    public GameObject bulletPrefab;
+    public GameObject[] bulletPrefabs;
 
     public Transform[] bulletPoints;
 
@@ -74,7 +74,7 @@ public class PlayerWeapon : MonoBehaviour
         //Instantiate the Bullet Prefab
         for (int i = 0; i < bulletPoints.Length; i++)
         {
-            GameObject bullet = Instantiate(bulletPrefab,bulletPoints[i].position, bulletPoints[i].rotation);
+            GameObject bullet = Instantiate(bulletPrefabs[i],bulletPoints[i].position, bulletPoints[i].rotation);
             
         }
 
