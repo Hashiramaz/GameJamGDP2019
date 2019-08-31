@@ -34,7 +34,10 @@ public class WeaponHolder : MonoBehaviour
         Debug.Log("Selecting Weapon: " + index);
         
 
-        if(index < weapons.Count - 1)
+        if(index >= weapons.Count  )
+        return;
+
+
             activeWeaponIndex = index;
 
 
@@ -42,7 +45,7 @@ public class WeaponHolder : MonoBehaviour
         {
                 weapons[i].gameObject.SetActive(false);
                 
-                if(i== activeWeaponIndex){
+                if(i == activeWeaponIndex){
                     activeweapon = weapons[index];
                     weapons[i].gameObject.SetActive(true);
                 }

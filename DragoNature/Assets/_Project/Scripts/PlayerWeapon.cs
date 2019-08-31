@@ -6,7 +6,7 @@ public class PlayerWeapon : MonoBehaviour
 {
     public GameObject[] bulletPrefabs;
 
-    public Transform[] bulletPoints;
+    public GameObject[] bulletPoints;
 
     public float firingRate = 0.5f;
     public float nextTimeToFire;  
@@ -74,7 +74,7 @@ public class PlayerWeapon : MonoBehaviour
         //Instantiate the Bullet Prefab
         for (int i = 0; i < bulletPoints.Length; i++)
         {
-            GameObject bullet = Instantiate(bulletPrefabs[i],bulletPoints[i].position, bulletPoints[i].rotation);
+            GameObject bullet = Instantiate(bulletPrefabs[i],bulletPoints[i].transform.position, bulletPoints[i].transform.rotation);
             
         }
 
