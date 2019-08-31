@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void StopGame(){
+        
         isPlaying = false;
         Debug.Log("STOPPED GAME");
         UiManager.instance.EnableFinalScreen();
