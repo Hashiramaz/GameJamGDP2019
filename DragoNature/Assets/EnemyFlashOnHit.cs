@@ -22,9 +22,9 @@ public class EnemyFlashOnHit : MonoBehaviour
     void Update()
     {   
         
-        if(Input.GetKeyDown("space")){
-            StartCoroutine(flashRoutine());
-        }
+        // if(Input.GetKeyDown("space")){
+        //     StartCoroutine(flashRoutine());
+        // }
     }
 
     //void EnemyFlash(status){    
@@ -32,6 +32,10 @@ public class EnemyFlashOnHit : MonoBehaviour
 
 
     //}
+
+    public void StartFlash(){
+             StartCoroutine(flashRoutine());
+    }
     void EnemyFlashing(){
         meshRenderer.material = WhiteMaterial;
     }

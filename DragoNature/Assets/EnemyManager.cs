@@ -7,7 +7,7 @@ public class EnemyManager : MonoBehaviour
  public float health;
 public bool isDead;
 public EnemyWeaponRoutine enemyWeapon;
-
+public EnemyFlashOnHit enemyFlash;
 
 
 
@@ -19,6 +19,10 @@ public EnemyWeaponRoutine enemyWeapon;
 
     public void TakeDamage(float amount){
         health -= amount;
+
+        if(enemyFlash != null)
+            enemyFlash.StartFlash();
+
         if(health <= 0)
             Die();
     }
