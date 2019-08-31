@@ -10,6 +10,8 @@ public class PlayerWeapon : MonoBehaviour
 
     public float firingRate = 0.5f;
     public float nextTimeToFire;  
+
+    public bool buttonFirePressed;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,8 @@ public class PlayerWeapon : MonoBehaviour
             }
 
         }
+
+
 
     }
 
