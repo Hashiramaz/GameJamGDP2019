@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3542,6 +3542,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 774140341}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &561017254
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561017248}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3ed43f4d1d0e6bb4f8c1a8d747f5ed07, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &564003528
 GameObject:
   m_ObjectHideFlags: 0
@@ -4615,6 +4634,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3260614022161340014, guid: c259da7d75aaa37439f568483714c680,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260614022161340014, guid: c259da7d75aaa37439f568483714c680,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260614022161340014, guid: c259da7d75aaa37439f568483714c680,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260614022161340014, guid: c259da7d75aaa37439f568483714c680,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.24444303
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260614022161340014, guid: c259da7d75aaa37439f568483714c680,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260614022161340014, guid: c259da7d75aaa37439f568483714c680,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260614022161340014, guid: c259da7d75aaa37439f568483714c680,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9696637
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260614022161340014, guid: c259da7d75aaa37439f568483714c680,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260614020534929532, guid: c259da7d75aaa37439f568483714c680,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 561017254}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c259da7d75aaa37439f568483714c680, type: 3}
 --- !u!1 &826773459
@@ -6497,7 +6561,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-670932
+  m_Name: pb_Mesh-14864
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -8326,7 +8390,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-670936
+  m_Name: pb_Mesh-14868
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11807,7 +11871,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh327422
+  m_Name: pb_Mesh17406
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -12758,7 +12822,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-670934
+  m_Name: pb_Mesh-14866
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
