@@ -6,10 +6,12 @@ public class PlayerWeapon : MonoBehaviour
 {
     public GameObject bulletPrefab;
 
-    public Transform bulletPoint;
+    public Transform[] bulletPoints;
 
     public float firingRate = 0.5f;
     public float nextTimeToFire;  
+
+    public bool buttonFirePressed;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,11 +30,17 @@ public class PlayerWeapon : MonoBehaviour
     public void UpdateShooting(){
         if(Input.GetKeyDown(KeyCode.Space)){
 
-            if(Time.time > nextTimeToFire){
                 TryShoot();
-            }
 
         }
+
+        buttonFirePressed = Input.GetAxisRaw("FireTrigger") > 0.5f;
+        
+        if(buttonFirePressed)
+            TryShoot();
+
+
+
 
     }
 
@@ -40,6 +48,9 @@ public class PlayerWeapon : MonoBehaviour
     public void TryShoot(){
         
         //verify if Player Have Bullets
+        if(Time.time < nextTimeToFire)
+                return;             
+            
 
 
         //Everything is fine, shoooot!!!!
@@ -57,7 +68,11 @@ public class PlayerWeapon : MonoBehaviour
        //Spawn Bullets for each bullets necessary
                   
         //Instantiate the Bullet Prefab
-        GameObject bullet = Instantiate(bulletPrefab,bulletPoint.position, bulletPoint.rotation);
+        for (int i = 0; i < bulletPoints.Length; i++)
+        {
+            GameObject bullet = Instantiate(bulletPrefab,bulletPoints[i].position, bulletPoints[i].rotation);
+            
+        }
 
         //RotateBullet? // NEED REFACTORING, MAYNE WE CANT ROTATE THE BULLETS!
           //  RotateBullet(bullet);        
