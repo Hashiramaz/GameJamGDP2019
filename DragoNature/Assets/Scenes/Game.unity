@@ -12691,5 +12691,54 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.0000076293945
       objectReference: {fileID: 0}
+    - target: {fileID: 7921589494429762231, guid: 953e6e32ba3c7d442b9d970f5efbbd79,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921589494909668331, guid: 953e6e32ba3c7d442b9d970f5efbbd79,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.4000244
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921589494909668332, guid: 953e6e32ba3c7d442b9d970f5efbbd79,
+        type: 3}
+      propertyPath: m_text
+      value: 'YOU FAILED!
+
+        ALL MEN MUST DIE!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921589494909668332, guid: 953e6e32ba3c7d442b9d970f5efbbd79,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921589494909668332, guid: 953e6e32ba3c7d442b9d970f5efbbd79,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921589494909668332, guid: 953e6e32ba3c7d442b9d970f5efbbd79,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921589494909668332, guid: 953e6e32ba3c7d442b9d970f5efbbd79,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921589494909668332, guid: 953e6e32ba3c7d442b9d970f5efbbd79,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921589494692553866, guid: 953e6e32ba3c7d442b9d970f5efbbd79,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 953e6e32ba3c7d442b9d970f5efbbd79, type: 3}
