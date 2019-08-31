@@ -12,13 +12,18 @@ public class EnemyFlashOnHit : MonoBehaviour
     
     public Material WhiteMaterial;
     private Material AuxMaterial;
+    private Material AuxMaterial2;
     private float Temporizer;
     
     
     void Start()
     {
-        AuxMaterial = meshRenderer.material;
+        
+        AuxMaterial = meshRenderer.materials[0];
+        AuxMaterial2 = meshRenderer.materials[1];
         Temporizer = 0;
+
+        
     }
 
     private void Awake() {
@@ -38,9 +43,9 @@ public class EnemyFlashOnHit : MonoBehaviour
     void Update()
     {   
         
-        // if(Input.GetKeyDown("space")){
-        //     StartCoroutine(flashRoutine());
-        // }
+         if(Input.GetKeyDown("space")){
+             StartCoroutine(flashRoutine());
+         }
     }
 
     //void EnemyFlash(status){    
@@ -50,10 +55,10 @@ public class EnemyFlashOnHit : MonoBehaviour
     //}
 
     public void StartFlash(){
-             StartCoroutine(flashRoutine());
+        StartCoroutine(flashRoutine());
     }
     void EnemyFlashing(){
-        meshRenderer.material = WhiteMaterial;
+        meshRenderer.materials = new Material[]{WhiteMaterial, WhiteMaterial};
     }
     IEnumerator flashRoutine(){
         EnemyFlashing();
@@ -63,7 +68,8 @@ public class EnemyFlashOnHit : MonoBehaviour
     }
 
     void EnemyBack(){
-        meshRenderer.material = AuxMaterial;
+        //meshRenderer.materials.SetValue(AuxMaterial,1);
+        meshRenderer.materials = new Material[]{AuxMaterial, AuxMaterial2};
     }
 
 

@@ -27,7 +27,9 @@ public class movement : MonoBehaviour
         
         //Move both directions
         transform.Translate(MoveSpeed*Input.GetAxisRaw("Horizontal")*Time.deltaTime,0f,MoveSpeed*Input.GetAxisRaw("Vertical")*Time.deltaTime);
-        animator.SetFloat("Rotation",Input.GetAxis("Horizontal"));
+        animator.SetFloat("horizontal",Input.GetAxis("Horizontal"));
+        animator.SetFloat("vertical",Input.GetAxis("Vertical"));
+        
     
         
 
