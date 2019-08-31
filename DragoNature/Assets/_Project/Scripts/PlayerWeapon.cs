@@ -30,6 +30,11 @@ public class PlayerWeapon : MonoBehaviour
 
 
     public void UpdateShooting(){
+        
+        if(GameManager.instance != null)
+        if(!GameManager.instance.isPlaying)
+            return;
+            
         buttonspaceenabled = Input.GetKey(KeyCode.Space);
 
         if(buttonspaceenabled){
