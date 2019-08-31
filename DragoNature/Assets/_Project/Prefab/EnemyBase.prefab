@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 473d1197a58ad054c80c3ed85658d7a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: -2
+  moveSpeed: -0.5
 --- !u!65 &3477457791816584387
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -157,22 +157,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3477457791255151074}
     m_Modifications:
-    - target: {fileID: 100050, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
-      propertyPath: m_Name
-      value: Rifle Idle
-      objectReference: {fileID: 0}
-    - target: {fileID: 100050, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 100052, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -228,6 +212,22 @@ PrefabInstance:
     - target: {fileID: 400050, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
       propertyPath: m_LocalScale.z
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 100050, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
+      propertyPath: m_Name
+      value: Rifle Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 100050, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100052, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 7e89d064024c6cc4f87c08693e39f4a5, type: 3}
       propertyPath: m_Layer
