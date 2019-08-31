@@ -5634,10 +5634,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6c1f9997bb7f1448b0dd7544f49ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  listOfLevels:
+  - {fileID: 5535342155312710688, guid: 1f9a68fe35509bf449f54b29675a6f5a, type: 3}
+  - {fileID: 3105110586938347595, guid: efaeec59bcdff284da546c0f83ccbb7a, type: 3}
+  - {fileID: 7541945627697599667, guid: bdec51c5a9d263a4192475e200fc87a0, type: 3}
   levelToSpawn: {fileID: 3105110586938347595, guid: efaeec59bcdff284da546c0f83ccbb7a,
     type: 3}
   clouds: {fileID: 0}
   spawnpoint: {fileID: 442842846}
+  actualLevelIndex: 0
 --- !u!1 &1176649353
 GameObject:
   m_ObjectHideFlags: 0
