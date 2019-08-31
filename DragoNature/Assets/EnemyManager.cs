@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class EnemyManager : MonoBehaviour
 {
@@ -32,6 +33,8 @@ public EnemyFlashOnHit enemyFlash;
         return;
 
         AudioManager.instance.Play("EnemyDead");
+
+        CameraShaker.Instance.ShakeOnce(1f,1f,0.1f,0.1f);
         isDead = true;
             transform.SendMessage("Die");
     }
