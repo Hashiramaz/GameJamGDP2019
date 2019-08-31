@@ -31,6 +31,7 @@ public EnemyFlashOnHit enemyFlash;
         if(isDead)
         return;
 
+        AudioManager.instance.Play("EnemyDead");
         isDead = true;
             transform.SendMessage("Die");
     }

@@ -86,7 +86,7 @@ public class PlayerWeapon : MonoBehaviour
 
         //Play Sound
         //FindObjectOfType<AudioManager>().Play("Shoot_1");
-
+        AudioManager.instance.Play("Fire");
 
         //Shake Camera
          //ShakeCamera();
