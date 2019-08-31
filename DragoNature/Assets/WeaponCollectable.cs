@@ -9,6 +9,7 @@ public class WeaponCollectable : MonoBehaviour
        if(other.CompareTag("Player")){
 
             other.gameObject.GetComponent<PlayerManager>().weaponHolder.LevelUp();
+            other.gameObject.GetComponent<PlayerManager>().health += 1;
         Destroy(gameObject);
        }
 
