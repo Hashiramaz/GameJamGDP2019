@@ -169,6 +169,7 @@ MonoBehaviour:
   firingRate: 0.05
   nextTimeToFire: 0
   buttonFirePressed: 0
+  buttonspaceenabled: 0
 --- !u!1 &513023190967050194
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +283,7 @@ MonoBehaviour:
   firingRate: 0.05
   nextTimeToFire: 0
   buttonFirePressed: 0
+  buttonspaceenabled: 0
 --- !u!1 &1868389834772134845
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,6 +335,7 @@ MonoBehaviour:
   firingRate: 0.05
   nextTimeToFire: 0
   buttonFirePressed: 0
+  buttonspaceenabled: 0
 --- !u!1 &2147663799553437953
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,9 +531,10 @@ MonoBehaviour:
     type: 3}
   bulletPoints:
   - {fileID: 3260614022188204937}
-  firingRate: 0.025
+  firingRate: 0.1
   nextTimeToFire: 0
   buttonFirePressed: 0
+  buttonspaceenabled: 0
 --- !u!1 &3260614022161340013
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +771,7 @@ MonoBehaviour:
   firingRate: 0.05
   nextTimeToFire: 0
   buttonFirePressed: 0
+  buttonspaceenabled: 0
 --- !u!1 &6887700918827113511
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,6 +913,7 @@ MonoBehaviour:
   firingRate: 0.05
   nextTimeToFire: 0
   buttonFirePressed: 0
+  buttonspaceenabled: 0
 --- !u!1001 &3260614021661232898
 PrefabInstance:
   m_ObjectHideFlags: 0
