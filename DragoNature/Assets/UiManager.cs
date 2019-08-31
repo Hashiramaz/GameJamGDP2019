@@ -15,6 +15,7 @@ public class UiManager : MonoBehaviour
     }
 
     public void EnableFinalScreen(){
+        
         finalScreen.SetActive(true);
         scoreInformations.SetActive(false);
     }
