@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyFlashOnHit : MonoBehaviour
 {
+    //	private Dictionary<Renderer, Material[]> originalMaterials = new Dictionary<Renderer, Material[]>();
+
+	//public Renderer[] children;
     // Start is called before the first frame update
     public SkinnedMeshRenderer meshRenderer;
     
@@ -16,6 +19,19 @@ public class EnemyFlashOnHit : MonoBehaviour
     {
         AuxMaterial = meshRenderer.material;
         Temporizer = 0;
+    }
+
+    private void Awake() {
+               //children is a reference to the renderers
+        //  children = GetComponentsInChildren<Renderer>();
+ 
+        //  foreach (Renderer rend in children)
+        //  {
+        //      //make array of all materials in renderer
+        //      Material[] materials = rend.materials;
+        //      //add to dictionary renderer and material
+        //      originalMaterials[rend] = materials;
+        //  }
     }
 
     // Update is called once per frame
@@ -49,5 +65,34 @@ public class EnemyFlashOnHit : MonoBehaviour
     void EnemyBack(){
         meshRenderer.material = AuxMaterial;
     }
+
+
+	// public IEnumerator StartFlashDamage(){
+		 
+	// 	 foreach (Renderer rend in children)
+    //      {
+    //          var mats = new Material[rend.materials.Length];
+    //          for (var j = 0; j < rend.materials.Length; j++)
+    //          {
+    //              mats[j] = damagedMaterial;
+    //          }
+    //          rend.materials = mats;
+    //      }
+
+	// 	yield return new WaitForSeconds(flashDuration);
+	// 	ResetMaterial();
+
+	// }
+
+ 	// void ResetMaterial()
+    //  {
+ 
+    //      foreach (KeyValuePair<Renderer, Material[]> pair in originalMaterials)
+    //      {
+             
+    //          pair.Key.materials = pair.Value;
+                 
+    //      }
+    //  }
 
 }
