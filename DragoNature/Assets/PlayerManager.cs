@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
      
     public void TakeDamage(float amount){
         health -= amount;
-        
+        weaponHolder.LevelDown();
         if(flashOnHit != null)
             flashOnHit.StartFlash();
 
