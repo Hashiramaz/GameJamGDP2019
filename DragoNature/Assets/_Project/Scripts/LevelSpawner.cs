@@ -10,6 +10,9 @@ public class LevelSpawner : MonoBehaviour
     public Transform spawnpoint;
 
     public int actualLevelIndex;
+    private void Start() {
+        SelectLevel(0);
+    }
     public void SpawnLevel(){
           
             Instantiate(levelToSpawn,spawnpoint.position,spawnpoint.rotation);
@@ -25,7 +28,14 @@ public class LevelSpawner : MonoBehaviour
 
 
     public void UpgradeLevel(){
+        SelectLevel(actualLevelIndex +1);
+    }
 
+    public void SelectLevel(int index){
+        if(index < listOfLevels.Count)
+            actualLevelIndex = index;
+        
+        levelToSpawn =listOfLevels[actualLevelIndex]; 
     }
 
   
